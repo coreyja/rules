@@ -13,8 +13,8 @@ type Ruleset interface {
 }
 
 type SnakeMove struct {
-	ID   string
-	Move string
+	ID   string `json:"id"`
+	Move string `json:"move"`
 }
 
 type rulesetBuilder struct {
